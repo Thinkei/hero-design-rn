@@ -1,6 +1,6 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import { Button } from "hero-design-rn";
+import { Button, TextInput } from "hero-design-rn";
 
 const styles = StyleSheet.create({
   container: {
@@ -9,7 +9,9 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   },
   pusher: {
-    flex: 1
+    flex: 1,
+    width: "100%",
+    padding: 20
   }
 });
 
@@ -17,8 +19,14 @@ class ButtonScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.pusher} />
-        <Button color="red">Button</Button>
+        <View style={styles.pusher}>
+          <TextInput
+            placeholder="Enter your email"
+            noBorder
+            inputStyle={{ backgroundColor: "#eee" }}
+          />
+          <Button color="red">Button</Button>
+        </View>
         <Button bottom>Button</Button>
       </View>
     );
