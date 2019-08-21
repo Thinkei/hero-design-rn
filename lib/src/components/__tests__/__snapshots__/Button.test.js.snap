@@ -47,7 +47,7 @@ exports[`Button Button is disabled renders correctly 1`] = `
         }
       }
     >
-      Loading Button
+      Disabled Button
     </Text>
   </View>
 </View>
