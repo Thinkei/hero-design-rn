@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Button is disabled renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#aaaaaa",
+      "borderRadius": 4,
+      "justifyContent": "center",
+      "minWidth": 100,
+      "opacity": 1,
+      "width": undefined,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "paddingBottom": 10,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "fontWeight": "400",
+          "height": 36,
+          "lineHeight": 36,
+          "padding": 0,
+        }
+      }
+    >
+      Loading Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button Button is loading renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#003580",
+      "borderRadius": 4,
+      "justifyContent": "center",
+      "minWidth": 100,
+      "opacity": 1,
+      "width": undefined,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "paddingBottom": 10,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>
+</View>
+`;
+
+exports[`Button When button at the bottom renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#003580",
+      "borderRadius": 0,
+      "justifyContent": "center",
+      "minWidth": 100,
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "fontWeight": "400",
+          "height": 36,
+          "lineHeight": 36,
+          "padding": 0,
+        }
+      }
+    >
+      Bottom Button
+    </Text>
+  </View>
+</View>
+`;
