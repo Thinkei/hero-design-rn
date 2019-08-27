@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "lint": "yarn run eslint ./src --quiet"
+    "lint": "yarn run eslint ./src --quiet",
+    "test": "yarn run jest"
   },
   "author": "",
   "license": "ISC",
@@ -25,10 +26,12 @@
     "eslint-plugin-react": "^7.13.0",
     "flow-bin": "^0.100.0",
     "jest": "^24.8.0",
+    "react": "^16.8.3",
+    "react-native": "^0.59",
     "react-test-renderer": "^16.8.6"
   },
   "peerDependencies": {
     "react": "^16.8.3",
-    "react-native": "*"
+    "react-native": "^0.59"
   }
 }

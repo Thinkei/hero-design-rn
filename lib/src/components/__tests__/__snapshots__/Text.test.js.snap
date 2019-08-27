@@ -16,7 +16,7 @@ exports[`Text Component local props should override style props on theme 1`] = `
 `;
 
 exports[`Text Component should have correct color when danger 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "red",
@@ -28,7 +28,7 @@ exports[`Text Component should have correct color when danger 1`] = `
 `;
 
 exports[`Text Component should have correct color when primary 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "#000000",
@@ -40,7 +40,7 @@ exports[`Text Component should have correct color when primary 1`] = `
 `;
 
 exports[`Text Component should have correct color when secondary 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "#ffffff",
@@ -52,7 +52,7 @@ exports[`Text Component should have correct color when secondary 1`] = `
 `;
 
 exports[`Text Component should have correct color when success 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "green",
@@ -64,7 +64,7 @@ exports[`Text Component should have correct color when success 1`] = `
 `;
 
 exports[`Text Component should have correct color when warning 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "yellow",
@@ -76,7 +76,7 @@ exports[`Text Component should have correct color when warning 1`] = `
 `;
 
 exports[`Text Component should have correct fontsize when h1 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "#000000",
@@ -89,7 +89,7 @@ exports[`Text Component should have correct fontsize when h1 1`] = `
 `;
 
 exports[`Text Component should have correct fontsize when h2 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "#000000",
@@ -102,7 +102,7 @@ exports[`Text Component should have correct fontsize when h2 1`] = `
 `;
 
 exports[`Text Component should have correct fontsize when h3 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "#000000",
@@ -115,7 +115,7 @@ exports[`Text Component should have correct fontsize when h3 1`] = `
 `;
 
 exports[`Text Component should have correct fontsize when h4 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "#000000",
@@ -128,7 +128,7 @@ exports[`Text Component should have correct fontsize when h4 1`] = `
 `;
 
 exports[`Text Component should have correct fontsize when h5 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "#000000",
@@ -141,7 +141,7 @@ exports[`Text Component should have correct fontsize when h5 1`] = `
 `;
 
 exports[`Text Component should render without issues 1`] = `
-<Component
+<Text
   style={
     Object {
       "color": "#000000",
