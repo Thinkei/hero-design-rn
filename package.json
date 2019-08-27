@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "workspaces": {
-    "packages": ["lib", "documentation", "sandbox"]
+    "packages": ["lib", "documentation"]
   },
   "scripts": {
     "dev": "cd sandbox && expo start",
