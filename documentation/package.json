@@ -23,6 +23,7 @@
     "react-styleguidist": "^9.0.9",
     "set-value": "^2.0.1",
     "surge": "^0.21.3",
-    "webpack": "^4.31.0"
+    "webpack": "^4.31.0",
+    "serialize-javascript": "^2.1.1"
   }
 }
