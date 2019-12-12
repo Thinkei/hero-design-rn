@@ -5,7 +5,13 @@
   "description": "",
   "main": "index.js",
   "workspaces": {
-    "packages": ["lib", "documentation"]
+    "packages": [
+      "lib",
+      "documentation"
+    ]
+  },
+  "resolutions": {
+    "serialize-javascript": "2.1.1"
   },
   "scripts": {
     "dev": "cd sandbox && expo start",

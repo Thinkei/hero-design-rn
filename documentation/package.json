@@ -12,6 +12,9 @@
     "hero-design-rn": "^1.0.0",
     "react-dom": "^16.8.6"
   },
+  "resolutions": {
+    "serialize-javascript": "2.1.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
@@ -24,6 +27,6 @@
     "set-value": "^2.0.1",
     "surge": "^0.21.3",
     "webpack": "^4.31.0",
-    "serialize-javascript": "^2.1.1"
+    "serialize-javascript": "2.1.1"
   }
 }
