@@ -12,6 +12,7 @@
   "dependencies": {
     "deepmerge": "^3.2.0",
     "hoist-non-react-statics": "^3.3.0",
+    "minimist": "^1.2.2",
     "react-native-safe-area-view": "^0.14.1"
   },
   "devDependencies": {
@@ -19,7 +20,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
-    "eslint": "^5.16.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
