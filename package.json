@@ -5,14 +5,12 @@
   "description": "",
   "main": "index.js",
   "workspaces": {
-    "packages": [
-      "lib",
-      "documentation"
-    ]
+    "packages": ["lib", "documentation"]
   },
   "resolutions": {
     "serialize-javascript": "2.1.1",
-    "minimist": "^1.2.2"
+    "minimist": "^1.2.2",
+    "kind-of": "^6.0.3"
   },
   "scripts": {
     "dev": "cd sandbox && expo start",
